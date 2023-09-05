@@ -1,980 +1,369 @@
-<!--
- =========================================================
- Material Kit PRO - v2.2.0
- =========================================================
-
- Product Page: https://themes.getbootstrap.com/product/material-kit-pro/
- Copyright 2019 Creative Tim (https://www.creative-tim.com)
-
- Coded by Creative Tim
-
- =========================================================
-
- The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
--->
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8" />
-  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/icon.png">
-  <link rel="icon" type="image/png" href="./assets/img/icon.png">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <title>
-    DBDP
-  </title>
-  <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
-  <!--     Fonts and icons     -->
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
-  <!-- CSS Files -->
-  <link href="./assets/css/material-kit.css?v=2.2.0" rel="stylesheet" />
-  <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="./assets/demo/demo.css" rel="stylesheet" />
-  <link href="./assets/demo/vertical-nav.css" rel="stylesheet" />
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-3YHP9NWHH0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-3YHP9NWHH0');
-</script>
-
-
-</head>
-
-<body class="landing-page sidebar-collapse">
-  <nav class="navbar navbar-color-on-scroll navbar-transparent    fixed-top  navbar-expand-lg " color-on-scroll="100" id="sectionsNav">
-    <div class="container">
-      <div class="navbar-translate">
-        <a class="navbar-brand" href="">
-          The DBDP </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="button-container nav-item iframe-extern">
-            <a href="https://github.com/DigitalBiomarkerDiscoveryPipeline" target="_blank" class="btn  btn-default   btn-round btn-block">
-              <i class="material-icons">watch</i> GitHub
-            </a>
-          </li>
-          <li class="button-container nav-item iframe-extern mx-2">
-            <a href="https://twitter.com/TheDBDP" target="_blank" class="btn  btn-info   btn-round btn-block">
-              <i class="fa fa-twitter"></i> Twitter
-            </a>
-          </li>
-          <li  class="button-container nav-item iframe-extern mx-2">
-            <a href="https://medium.com/digital-biomarker-discovery" target="_blank" class="btn  btn-primary   btn-round btn-block">
-              <i class="fa fa-medium"></i> Blog
-            </a>
-          </li>
-          <li  class="button-container nav-item iframe-extern mx-2">
-            <a href="https://dbdp.org/dbdpED" target="_blank" class="btn  btn-success   btn-round btn-block">
-              <i class="material-icons">school</i> dbdpED
-            </a>
-          </li>
-          <li  class="button-container nav-item iframe-extern">
-            <a href="https://dbdp.org/opendbdp" target="_blank" class="btn  btn-warning   btn-round btn-block">
-              <i class="material-icons">share</i> Open DBDP
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-	
-<div class="page-header img-fluid" data-parallax="true" style="background-color: black; max-height: 400px;">
-    <div class="container">
-      <div class="row">
-        <div !class="col-md-6">
-          <h3 class="title">Join us at the AMIA 2022 Annual Symposium!</h1>
-          <h4>We will be hosting a workshop on <strong>Incorporating Digital Health into Clinical Workflows:
-            The Future of Longitudinal, Remote, and Assisted Patient Monitoring.</strong></h4>
-          
-          <a href="https://dbdp.org/amia2022" target="_blank" class="btn btn-info btn-raised btn-lg">
-            learn more
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  
-<div class="page-header img-fluid" data-parallax="true" style="background-image: url('./assets/dbdp/DBDP_logo.jpg'); opacity:1">
-    <div class="container">
-      <!--<div class="row">
-        <div !class="col-md-6">
-          <h1 class="title">Digital Biomarker Discovery Pipeline</h1>
-          <h4>An open source software platform for the development of digital biomarkers using mHealth and wearables.</h4>
-          <br>
-          <a href="https://github.com/DigitalBiomarkerDiscoveryPipeline" target="_blank" class="btn btn-info btn-raised btn-lg">
-            <i class="fa fa-github"></i> Go to GitHub
-          </a>
-        </div>
-      </div>-->
-    </div>
-  </div>
-  
-  
-  <div class="main main-raised">
-  <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto">
-            <h3 class="description text-center">The Digital Biomarker Discovery Pipeline (DBDP) is an open source platform for the development of digital biomarkers.</h3>
-          </div>
-        </div>
-        <div class="features-1 pt-0">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-rose">
-                  <i class="material-icons">apps</i>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Big Ideas Lab - AMIA Workshop</title>
+        <!-- Favicon-->
+        <link rel="icon" sizes="70x70" type="image/x-icon" href="assets/assets_bhi/img/Favicon.jpg" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.4.2/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/css_bhi/styles.css" rel="stylesheet" />
+        <link href = "css/css_bhi/custom.css" rel = "stylesheet"/>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <!-- <a class="navbar-brand" href="#page-top"><img src="assets/assets_bhi/img/dbdp-logo.png"  alt="..." /></a> -->
+                <a class="navbar-light navbar-brand btn-primary-hover" target="blank" href="https://dunn.pratt.duke.edu/"> <img src="assets/assets_bhi/img/logos/BIL_logo.png" alt="..." /> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+               
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav  ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#Event">Event</a></li>
+                        <!--li class="nav-item"><a class="nav-link" href="#Topics">Topics</a></li -->
+                        <li class="nav-item"><a class="nav-link" href="#Presenters">Presenters</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://docs.google.com/document/d/1_06pKOyMB8IJehF2-TjsO_RVowPmR2k_G7-ZmnyXV-w/edit?usp=sharing" target="_blank">Resources ↗ </a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li> -->
+                    </ul>
                 </div>
-                <h4 class="info-title">End-to-End</h4>
-                <p style="font-size:18px;">The DBDP provides complete end-to-end digital biomarker development. Modules are dedicated to data pre-processing, data analysis, algorithm development, and validation.</p>
-              </div>
             </div>
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-info">
-                  <i class="material-icons">view_day</i>
-                </div>
-                <h4 class="info-title">Modular Framework</h4>
-                <p style="font-size:18px;">The DBDP is a modular framework, providing both end-to-end complete solutions as well as tools and algorithms for discovery.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-success">
-                  <i class="material-icons">view_carousel</i>
-                </div>
-                <h4 class="info-title">Open Source</h4>
-                <p style="font-size:18px;">The DBDP is open source under the Apache 2.0 License. The DBDP is available in GitHub under a Contributor Code of Conduct.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-	  
-	  <!div class="section-components">
-	  <div class="section section-cards section-dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-12">
-            <h3 class="title">The Purpose
-              <h5 class="description">Digital biomarkers are digitally collected data that are transformed into indicators of health outcomes. Digital biomarkers currently require extensive domain knowledge and computing skills. The purpose of the DBDP is to provide code sets, functions, and algorithms for the entire digital biomarker discovery pipeline to make discovering digital biomarkers more accessible. From the input of wearable sensor data to the development of machine learning and deep learning algorithms, we have provided an open source software resource for the digital biomarker community. 
-                For more information, please see our 
-                <a href="https://www.cambridge.org/core/journals/journal-of-clinical-and-translational-science/article/digital-biomarker-discovery-pipeline-an-open-source-software-platform-for-the-development-of-digital-biomarkers-using-mhealth-and-wearables-data/A6696CEF138247077B470F4800090E63">recent publication</a>
-                 on the DBDP. 
-              </h5>
-            </h3>
-          </div>
-          <div class="col-lg-6 col-md-12 ml-auto">
-            <div class="image-container">
-              <img class="img-fluid" src="./assets/dbdp/DBDP_logo_2.jpg" style="height:20em;" alt="" />
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-	<div class="section section-sections">
-		  <div class="container">
-			  <div class="section text-center">
-				<div class="col-md-8 ml-auto mr-auto">
-				  <div class="section-description">
-					<h2 class="title">DBDP Modules</h2>
-					<h5 class="description">The modular framework of the DBDP lets you mix and match pre-processing code, exploratory data analyses, and algorithms for discovering your own digital biomarkers. New DBDP Modules are being uploaded weekly.</h5>
-					<a href="https://github.com/DigitalBiomarkerDiscoveryPipeline" target="_blank" class="btn btn-rose btn-round">
-					<i class="fa fa-github"></i>  View All Sections on GitHub
-					</a>
-				</div>
-			  </div>
-			</div>
-		  </div>
-		  <div class="row">
-			  <div class="col-md-6 ml-auto mr-auto">
-				<div class="profile-tabs">
-				  <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">
-					<li class="nav-item">
-					  <a class="nav-link active" href="#pre-process" role="tab" data-toggle="tab">
-						<i class="material-icons">vertical_split</i>
-						Pre-processing
-					  </a>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link" href="#eda" role="tab" data-toggle="tab">
-						<i class="material-icons">equalizer</i>
-						Exploratory Data Analysis
-					  </a>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link" href="#hrv" role="tab" data-toggle="tab">
-						<i class="material-icons">favorite</i>
-						Heart Rate Variability
-					  </a>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link" href="#rhr" role="tab" data-toggle="tab">
-						<i class="material-icons">favorite_border</i>
-						Resting Heart Rate
-					  </a>
-          </li>
-          <li class="nav-item">
-					  <a class="nav-link" href="#nutrition" role="tab" data-toggle="tab">
-						<i class="material-icons">food_bank</i>
-						Nutrition
-					  </a>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link" href="#sleep" role="tab" data-toggle="tab">
-						<i class="material-icons">hotel</i>
-						Sleep
-					  </a>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link" href="#gv" role="tab" data-toggle="tab">
-						<i class="material-icons">local_drink</i>
-						Glucose Variability
-					  </a>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link" href="#act" role="tab" data-toggle="tab">
-						<i class="material-icons">directions_run</i>
-						Activity Classification
-					  </a>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link" href="#har" role="tab" data-toggle="tab">
-						<i class="material-icons">directions_walk</i>
-						Human Activity Recognition
-					  </a>
-          </li>
-          <li class="nav-item">
-					  <a class="nav-link" href="#wfe" role="tab" data-toggle="tab">
-						<i class="material-icons">watch</i>
-						Wearable Feature Engineering
-					  </a>
-          </li>
-          <li class="nav-item">
-					  <a class="nav-link" href="#fast" role="tab" data-toggle="tab">
-						<i class="material-icons">no_meals</i>
-						Fasting
-					  </a>
-					</li>	
-					<li class="nav-item">
-					  <a class="nav-link" href="#mh" role="tab" data-toggle="tab">
-						<i class="material-icons">waves</i>
-						Mental Health
-					  </a>
-          </li>
-          <li class="nav-item">
-					  <a class="nav-link" href="#mlm" role="tab" data-toggle="tab">
-						<i class="material-icons">account_tree</i>
-						ML Methods
-					  </a>
-          </li>
-          <li class="nav-item">
-					  <a class="nav-link" href="#dct" role="tab" data-toggle="tab">
-						<i class="material-icons">save</i>
-						Data Compression Toolbox
-					  </a>
-					</li>
-					<li class="nav-item">
-					  <a class="nav-link" href="#you" role="tab" data-toggle="tab">
-						<i class="material-icons">publish</i>
-						Your Module Here!
-					  </a>
-          </li>			
-				  </ul>
-				</div>
-				
-				<div class="tab-content tab-space text-center">
-                <div class="tab-pane active" id="pre-process">
-					<br>
-					<br>
-                  Wearables data can be messy and typically needs considerable pre-processing in order to start analyzing data. We provide pre-processing modules for a variety of different mHealth and wearable sensors.
-					
-					<li class="nav-item" style="list-style-type: none;">
-							<a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/Pre-process" target="_blank">
-								<i class="material-icons">vertical_split</i>
-								Pre-processing Module Code HERE
-							</a>
-						</li>
-                </div>
-				
-                <div class="tab-pane" id="eda">
-					<br>
-					<br>
-                  Exploratory Data Analysis is a standard process in the early stages of digital biomarker development. EDA allows us to explore relationships between variables in the data, examine trends, analyze missingness of data, and begin the process of understanding the link between the data and the physiological state we are studying.
-					
-					<li class="nav-item" style="list-style-type: none;">
-							<a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/Exploratory-Data-Analysis" target="_blank">
-								<i class="material-icons">equalizer</i>
-								Exploratory Data Analysis Module Code HERE
-							</a>
-						</li>
-                </div>
-				
-                <div class="tab-pane" id="hrv">
-					<br>
-					<br>
-                  Heart rate variability (HRV) is the physiological phenomenon of the variation in the time interval between consecutive heartbeats in milliseconds. Higher HRV has been found to be associated with reduced morbidity and mortality and improved psychological well-being and quality of life. HRV is regulated by the autonomic nervous system and is thus an important indicator of nervous system function. HRV is a potential digital biomarker for a number of diseases and conditions.
-					
-					<li class="nav-item" style="list-style-type: none;">
-							<a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/Heart-Rate-Variability" target="_blank">
-								<i class="material-icons">favorite</i>
-								Heart Rate Variability Analysis Module Code HERE
-							</a>
-						</li>
-                </div>
-				
-                <div class="tab-pane" id="rhr">
-					<br>
-					<br>
-                  Resting heart rate (RHR) characterizes several health conditions, such as type 2 diabetes and cardiovascular diseases, and the DBDP provides a personalized, accessible and transparent method for estimating RHR from photoplethysmography-based wearable device (e.g., Fitbit) data.
-					
-					<li class="nav-item" style="list-style-type: none;">
-							<a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/Resting-Heart-Rate" target="_blank">
-								<i class="material-icons">favorite_border</i>
-								Resting Heart Rate Module Code HERE
-							</a>
-						</li>
-                </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container text-center">
+                <div class="masthead-subheading justify-content-center">IEEE-EMBS BHI 2023</div>
+                <div class="col-12 col-xl-8 offset-xl-2 col-xxl-8 offset-xxl-2 masthead-heading">Unraveling Challenges in Time Series Analysis <br>with 
+                    Open Source Tools for Digital Health Applications</div>
+                <div class = "date-event justify-content-center">October 15, 2023 Pittsburgh, PA.</div>
+                <a class="btn btn-dark arrow-hero hover mx-2" href="#Event"><i class="fa-solid fa-arrow-down"></i></a>
                 
-                <div class="tab-pane" id="nutrition">
-            <br>
-            <br>
-                  Nutrition Information Search Engine. 
-                  
-          <li class="nav-item" style="list-style-type: none;">
-              <a class="nav-link" href="nutritionInfoSearch.html" target="_blank">
-                  <i class="material-icons">food_bank</i>
-                  Try the Nutrition Search Engine HERE
-              </a>
-            </li>
-                </div>	
-
-				<div class="tab-pane" id="sleep">
-					<br>
-					<br>
-                  Accurate sleep detection is necessary to determine circadian rhythm and to discover relationships between circadian rhythm and sleep characteristics. 
-					
-					<li class="nav-item" style="list-style-type: none;">
-							<a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/Sleep" target="_blank">
-								<i class="material-icons">hotel</i>
-								Sleep Module Code HERE
-							</a>
-						</li>
+            </div>
+        </header>
+        <!-- Event Information Section -->
+        <section class="page-section event-details-section theme" id="Event">
+            <div class="container-sm container ">
+                <div class="text-center">
+                    <h2 class="section-heading "> Event Details</h2>
+                    
                 </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-normal "></i>
+                            <i class="fa-solid fa-calendar fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">When and Where</h4>
+                       
+                         <p class = "text-center text-muted"> October 15, 2023 <br> 2:00-3:30 pm <br> </p>
+                     
+                         <p class = "text-center text-muted"> <span class = "text-bold-uppercase"> Soldiers & Sailors <br> Memorial Hall & Museum <br></span> <br> 4141 Fifth Ave 3rd Floor
+                             <br> Pittsburgh, PA 15213 <br>
+                        </p>
+                    
 
-				<div class="tab-pane" id="gv">
-					<br>
-					<br>
-                  Glucose variability is indicative of hyperglycemia, hypoglycemia, and risk for developing prediabetes and T2D. They are also indicators of glycemic control, which is an important metric when evaluating the health of both T1D and T2D patients. This module can be used with continuous glucose monitoring data to calculate 20+ glucose variability metrics. 
-					
-					<li class="nav-item" style="list-style-type: none;">
-							<a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/cgmquantify" target="_blank">
-								<i class="material-icons">local_drink</i>
-								Glucose Variability Module Code HERE
-							</a>
-						</li>
-                </div>
-
-				<div class="tab-pane" id="act">
-					<br>
-					<br>
-                  An activity classification model.
-					
-					<li class="nav-item" style="list-style-type: none;">
-							 <a class="nav-link" href="https://github.com/Big-Ideas-Lab/DBDP/tree/master/DigitalBiomarkers-Activity_Classification" target="_blank">
-								<i class="material-icons">directions_run</i>
-								Activity Classification Module Code HERE
-							</a>
-						</li>
-                </div>	
-
-				<div class="tab-pane" id="har">
-					<br>
-					<br>
-                  Human Activity Recognition using Physiological data from wearables. This project was in partnership with the Rhodes Information Iniative Data+ undergraduate summer research program (Summer 2020).
-					
-					<li class="nav-item" style="list-style-type: none;">
-							 <a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/Human-Activity-Recognition" target="_blank">
-								<i class="material-icons">directions_walk</i>
-								Human Activity Recognition Module Code HERE
-							</a>
-						</li>
-                </div>	
-
-        <div class="tab-pane" id="fast">
-          <br>
-          <br>
-                   Module for exploring and analyzing fasting data. 
-                  
-          <li class="nav-item" style="list-style-type: none;">
-                <a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/fasting" target="_blank">
-                 <i class="material-icons">no_meals</i>
-                   Fasting Module Code HERE
-                    </a>
-                 </li>
                     </div>
+                    <div class="col-md-4 topic-details">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-normal"></i>
+                            <i class="fas fa-solid fa-clock fa-stack-1x fa-inverse"></i>
+                        </span>
 
-				<div class="tab-pane" id="mh">
-					<br>
-					<br>
-                  This project is currently underway. Come back soon for more info!
-					
-					<li class="nav-item" style="list-style-type: none;">
-							 <a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline" target="_blank">
-								<i class="material-icons">waves</i>
-								Mental Health Module Code HERE
-							</a>
-						</li>
-                </div>	
-
-                
-                
-        <div class="tab-pane" id="dct">
-                  <br>
-                  <br>
-                          Biosignal Data Compression Toolbox
-                  
-                  <li class="nav-item" style="list-style-type: none;">
-                       <a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/Data-Compression-Toolbox" target="_blank">
-                        <i class="material-icons">save</i>
-                        Data Compression Toolbox Module Code HERE
-                      </a>
-                    </li>
-                        </div>	 
-        <div class="tab-pane" id="mlm">
-                  <br>
-                  <br>
-                          Machine Learning Methods
-                  
-                  <li class="nav-item" style="list-style-type: none;">
-                       <a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/ML-Methods" target="_blank">
-                        <i class="material-icons">account_tree</i>
-                      ML Methods Module Code HERE
-                      </a>
-                    </li>
-                        </div>       
-
-        <div class="tab-pane" id="wfe">
-                  <br>
-                  <br>
-                          Wearable Feature Engineering
-                  
-                  <li class="nav-item" style="list-style-type: none;">
-                       <a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/wearablecompute" target="_blank">
-                        <i class="material-icons">watch</i>
-                        Wearable Feature Engineering Module Code HERE
-                      </a>
-                    </li>
-                        </div>	 
+                        <h4 class="my-3">Register</h4>
+                        <p class = "text-muted justify-content-center"> First, be sure to register through the <a class = "register-link-text" href = "https://bhi.embs.org/2023/registration/" target="_blank"> <br> BHI registration website. </a> </p>
+                        <p class = "text-muted justify-content-center"> Once registration is complete, <br>please let us know you will be attending <br>by completing this <a class = "register-link-text" href = "https://forms.gle/J3RCca4zybdgChsG7" target="_blank"> form.</a> </p>
+                    </div>
+                    <div class="col-md-4 topic-details">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-normal"></i>
+                            <i class="fa-solid fa-database fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Schedule</h4>
+                        <p class="text-muted col-md-11 col-lg-8 offset-lg-2 col-xl-9 offset-xl-2"> Experts will discuss the challenges and methods in time series analysis. View the full workshop schedule  <a class = register-link-text href = "https://docs.google.com/document/d/1ESLQ4IXKI5rKWfUesb-UBvFatJ_0e2RiRTyq8-3e5Rg/edit?usp=sharing" target="_blank">here</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         
-				<div class="tab-pane" id="you">
-					<br>
-					<br>
-                  Contribute your digital biomarker to the DBDP!
-					
-					<li class="nav-item" style="list-style-type: none;">
-							 <a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/DBDP/blob/master/CONTRIBUTING.md" target="_blank">
-								<i class="material-icons">publish</i>
-								Contributor Instructions HERE
-							</a>
-						</li>
-                </div>					
-				
-              </div>
-				
-				
-			  </div>
-			</div>
-			
-    <div class="container">
-		  <div class="section section-overview">
-        <div class="features-5" style="background-image: url(&apos;./assets/dbdp/backdata.jpg&apos;)">
-          <div class="col-md-8 ml-auto mr-auto text-center">
-        <a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/Digital_Health_Data_Repository" target="_blank">
-          <h2 class="title">The Digital Health Data Repository (DHDR) </h2>
-        </a>
-          </div>
-        <div class="container">
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto text-center">
-          <!h3 class="title">
-            <h5 class="description text-white bg-dark">The DHDR (Digital Health Data Repository) is a repository with sample data for use with the DBDP. We curate datasets in the digital health space. Click 
-              <a href="https://github.com/DigitalBiomarkerDiscoveryPipeline/Digital_Health_Data_Repository">here</a> for more info!
-            </h5>
-          </!h3>
-          </div>
-        </div>
-          </div>
-        </div>
-      </div>	
-    </div>	
-			
-	
-			
-	<br>
-	<br>
-	<br>
-    <div class="container">
-      <div class="section text-center">
-        <div class="row">
-          <div class="col-md-8 ml-auto mr-auto">
-            <h2 class="title">Extensive Documentation</h2>
-            <h5 class="description">The DBDP provides extensive user documentation including a User Guide, instructions and documentation for contributors, and monitored issue tracking.</h5>
-          </div>
-        </div>
-        <div class="features">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-info">
-				  <a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/DBDP/wiki/USER-GUIDE" target="_blank">
-					<i class="material-icons" style="font-size: 50px; color:MediumSeaGreen;">description</i>
-				  </a>
+        
+
+         
+       
+       
+        
+        <!-- Presenters-->
+        <section class="page-section bg-light" id="Presenters">
+            <div class="container ">
+                <div class="text-center">
+                    <h2 class="section-heading">Presenters</h2>
                 </div>
-                <h4 class="info-title">User Guide</h4>
-                <p style="font-size:18px;">The user guide was created for users, contributors, and digital medicine enthusiasts alike. Instructions for using the DBDP are located in our Wiki.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-success">
-				  <a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/DBDP/blob/master/CONTRIBUTING.md" target="_blank">
-					<i class="material-icons" style="font-size: 50px; color:Orange;">group_add</i>
-				  </a>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/assets_bhi/img/Speakers/Bobak Mortazavi.png" alt="..." />
+                            <h4>Bobak Mortazavi, PhD</h4>
+                            <p class="text-muted">Texas A&M University     </p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/jbmortazavi" target = "blank" aria-label="Bobak Mortazavi Twitter Profile"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/bobak-mortazavi-ba438437" target = "blank" aria-label="Bobak Mortazavi LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/assets_bhi/img/Speakers/Mobashir Shandhi.jpg" alt="..." />
+                            <h4 class = "presenter-font">Md Mobashir Hasan Shandhi, PhD</h4>
+                            <p class="text-muted"> Postdoc Researcher Duke University</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/MobashirShandhi" target = "blank" aria-label="Md Mobashir Hasan Shandhi Twitter Profile"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/mobashirshandhi/" target = "blank" aria-label="Md Mobashir Hasan Shandhi LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/assets_bhi/img/Speakers/Will Wang.jpeg" alt="..." />
+                            <h4>Will (Ke) Wang</h4>
+                            <p class="text-muted">PhD Student, Duke University</p>
+                            <!-- a class="btn btn-dark btn-social mx-2" href="https://twitter.com/Karnika_MedTech" target="_blank" aria-label="Karnika Singh"><i class="fa-brands fa-x-twitter"></i></a> -->
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/will-ke-wang-065015206" target = "blank" aria-label="Karnika Singh LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <h4 class="info-title">Contribution Instructions</h4>
-                <p style="font-size:18px;">If you would like to contribute your digital biomarker to the DBDP, please follow our Instructions for Contribution Guide located in our GitHub.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="info">
-                <div class="icon icon-danger">
-				  <a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/DBDP/issues" target="_blank">
-					<i class="material-icons" style="font-size: 50px; color:SlateBlue;">chat</i>
-				  </a>
+                
+            
+                <div class="row presenter-spacing">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/assets_bhi/img//Speakers/Hayoung Jeong.png" alt="..." />
+                            <h4>Hayoung Jeong</h4>
+                            <p class="text-muted">PhD Student, Duke University</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/hayoungresearch" aria-label="Hayoung Jeong Twitter Profile"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/hayoungjeong/" target = "blank" aria-label="Hayoung Jeong LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/assets_bhi/img//Speakers/Bill Chen.jpeg" alt="..." />
+                            <h4>Bill Chen</h4>
+                            <p class="text-muted">MS Student, Duke University</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/BillChe13472842" aria-label="Bill Chen Twitter Profile"><i class="fa-brands fa-x-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/bill-chen-0a45b2242/" target = "blank" aria-label="Bill Chen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <h4 class="info-title">Monitored Issue Tracking</h4>
-                <p style="font-size:18px;">Have an idea for a new biomarker? Need help with the current modules? Issue Tracking is monitored by the Big Ideas Lab and we are happy to help!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-	  
-	  <div class="section section-overview">
-      <div class="features-5" style="background-image: url(&apos;./assets/img/features-5.jpg&apos;)">
-        <div class="col-md-8 ml-auto mr-auto text-center">
-			<a class="nav-link" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/DBDP/wiki/Digital-Biomarker-Discovery-Resources" target="_blank">
-			  <h2 class="title">Resource Guide for the Discovery of Digital Biomarkers </h2>
-			</a>
-        </div>
-			<div class="container">
-			<div class="row">
-			  <div class="col-md-8 ml-auto mr-auto text-center">
-				<!h3 class="title">
-				  <h5 class="description">The Digital Biomarker Discovery process can be challenging. We have compiled some resources that, along with the DBDP, can be used to make digital biomarker discovery more robust. We provide resources for choosing a wearable sensor, data handling, validation, and much more!
-				  </h5>
-				<!/h3>
-			  </div>
-			</div>
-        </div>
-      </div>
-    </div>
 
-    <div class="section section-free-demo">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 col-md-8 ml-auto mr-auto">
-		    <div class="icon-github">
-				<i class="fa fa-github" style="font-size:75px"></i>
+               
+            <!--Organizers-->
+            <div class="text-center topics-spacing">
+                <h2 class="section-heading">Other Key Contributors</h2>
             </div>
-            <div class="section-description">
-              <h2 class="title">Ready to Start Discovering?</h2>
-              <h5 class="description">Discover more robust digital biomarkers with the DBDP. Start discovering now on GitHub! We believe that not only data, but also computational pipelines and algorithms should operate by the FAIR principles (Findable, Accessible, Interoperable, and Reusable). </h5>
-              <div class="github-section">
-                <div class="git-demo float-left">
-                  <a href="https://github.com/DigitalBiomarkerDiscoveryPipeline" target="_blank" class="btn btn-rose btn-round">DBDP on Github</a>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/assets_bhi/img/Speakers/Jessilyn Dunn PhD.jpg" alt="..." />
+                        <h4>Jessilyn Dunn, PhD</h4>
+                        <p class="text-muted">Duke University     </p>
+                        <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/drjessilyn" target = "blank" aria-label="Jessilyn Dunn Twitter Profile"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/jessilyn-dunn-82803438" target = "blank" aria-label="Jessilyn Dunn LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
                 </div>
-                <div class="git-button float-right">
-                  <!-- Star on GitHub -->
-                  <a class="github-button" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/DBDP" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
-                  <!-- Fork on GitHub -->
-                  <a class="github-button" href="https://github.com/DigitalBiomarkerDiscoveryPipeline/DBDP" data-icon="octicon-repo-forked" data-size="large" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/assets_bhi/img/Speakers/Yihang Jiang.jpg" alt="..." />
+                        <h4>Yihang Jiang</h4>
+                        <p class="text-muted">PhD Student, Duke University</p>
+                        <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/yihang_jiang" target="_blank" aria-label="Yihang Jiang Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/yihang-jiang-ba591328b/" target = "blank" aria-label="Yihang Jiang LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
+
+            
+             </div>
         </div>
-      </div>
-    </div>
-    
-    <div class="team-1" id="team-1">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-10 ml-auto mr-auto text-center">
-            <h2 class="title">The DBDP Team</h2>
-            <h5 class="description">We are a dynamic team passionate about getting digital biomarker discovery tools into your hands!</h5>
-          </div>
+    </section>
+
+        <!-- Sponsors-->
+        <div class="py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-3 my-3">
+                        <a href="https://stmilab.github.io/" target="_blank"><img class="img-fluid img-brand d-block mx-auto" src="assets/assets_bhi/img/logos/STMI_Logo_RGB_Black.png"  alt="..." aria-label="STMI Logo" /></a>
+                    </div>
+                    <div class="col-md-3 my-3">
+                        <a href="https://dbdp.org/" target="_blank"><img class="img-fluid img-brand d-block mx-auto" src="assets/assets_bhi/img/logos/DBDP_logo_2.png" alt="..." aria-label="DBDP Logo" /></a>
+                    </div>
+                    <div class="col-md-3 my-3">
+                        <a href="https://duke.edu/" target="_blank"><img class="img-fluid img-brand d-block mx-auto" src="assets/assets_bhi/img/logos/Duke_University_logo.svg.png"  alt="..." aria-label="Duke University Logo" /></a>
+                    </div>
+                    <div class="col-md-3 my-3">
+                        <a href="https://bhi.embs.org/2023/" target="_blank"><img class="img-fluid img-brand d-block mx-auto" src="assets/assets_bhi/img/logos/bhi2023-logo2x.png"  alt="..." aria-label="BHI Logo" /></a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="card card-profile card-plain">
-              <div class="card-header card-avatar">
-                <a href="#pablo">
-                  <img class="img" src="./assets/dbdp/JD.jpg" />
-                </a>
-              </div>
-              <div class="card-body ">
-                <h4 class="card-title">Jessilyn Dunn, PhD</h4>
-                <h6 class="card-category text-muted">DBDP Founder</h6>
-                <p class="card-description">
-                  PI, Big Ideas Lab at Duke
-                </p>
-              </div>
-              <div class="card-footer justify-content-center">
-                <a href="https://twitter.com/drjessilyn" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/jessilyn-dunn-82803438/" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
-              </div>
+
+         <!-- Topic Popups-->
+        <!-- Topic item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/assets_bhi/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2>Digital Health</h2>
+                                    <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                                    <img class="img-fluid d-block mx-auto" src="assets/assets_bhi/img/Topics/Flow Chart - DBDP - Wearables.jpg" alt="..." />
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card card-profile card-plain">
-              <div class="card-header card-avatar">
-                <a href="#pablo">
-                  <img class="img" src="./assets/dbdp/BB.JPG" />
-                </a>
-              </div>
-              <div class="card-body ">
-                <h4 class="card-title">Brinnae Bent, PhD</h4>
-                <h6 class="card-category text-muted">DBDP Lead Developer</h6>
-                <p class="card-description">
-                  Data Scientist Edge Analytics, <br> previously Duke BME
-                </p>
-              </div>
-              <div class="card-footer justify-content-center">
-                <a href="https://twitter.com/RunsData" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
-                <a href="https://medium.com/@RunsData" class="btn btn-just-icon btn-link btn-medium"><i class="fa fa-medium"></i></a>
-                <a href="https://www.linkedin.com/in/brinnaebent/" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card card-profile card-plain">
-              <div class="card-header card-avatar">
-                <a href="#pablo">
-                  <img class="img" src="./assets/dbdp/KS.jpg" />
-                </a>
-              </div>
-              <div class="card-body ">
-                <h4 class="card-title">Karnika Singh</h4>
-                <h6 class="card-category text-muted">Co-founder, dbdpED</h6>
-                <p class="card-description">
-                  PhD student Duke BME
-                </p>
-              </div>
-              <div class="card-footer justify-content-center">
-                <a href="https://twitter.com/Karnika_MedTech" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
-                <a href="https://medium.com/@karnika.singh_90443" class="btn btn-just-icon btn-link btn-medium"><i class="fa fa-medium"></i></a>
-                <a href="https://www.linkedin.com/in/karnika-singh-376137103/" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card card-profile card-plain">
-              <div class="card-header card-avatar">
-                <a href="#pablo">
-                  <img class="img" src="./assets/dbdp/BL.jpg" />
-                </a>
-              </div>
-              <div class="card-body ">
-                <h4 class="card-title">Baiying Lu</h4>
-                <h6 class="card-category text-muted">Data Wrangler</h6>
-                <p class="card-description">
-                  MS student Duke BME
-                </p>
-              </div>
-              <div class="card-footer justify-content-center">
-                <a href="https://twitter.com/BaiyingL" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/in/baiying-lu-54b1961b7/" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card card-profile card-plain">
-              <div class="card-header card-avatar">
-                <a href="#pablo">
-                  <img class="img" src="./assets/dbdp/GS.jpg" />
-                </a>
-              </div>
-              <div class="card-body ">
-                <h4 class="card-title">Geetika Singh</h4>
-                <h6 class="card-category text-muted">Code Integrator</h6>
-                <p class="card-description">
-                  MS student Duke BME
-                </p>
-              </div>
-              <div class="card-footer justify-content-center">
-                <a href="https://twitter.com/GeetikaSi" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
-                <!--<a href="https://medium.com/@karnika.singh_90443" class="btn btn-just-icon btn-link btn-medium"><i class="fa fa-medium"></i></a>
-                <a href="https://www.linkedin.com/in/karnika-singh-376137103/" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>-->
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card card-profile card-plain">
-              <div class="card-header card-avatar">
-                <a href="#pablo">
-                  <img class="img" src="./assets/dbdp/PC.jpg" />
-                </a>
-              </div>
-              <div class="card-body ">
-                <h4 class="card-title">Peter Cho</h4>
-                <h6 class="card-category text-muted">Research Liason</h6>
-                <p class="card-description">
-                  PhD student Duke BME
-                </p>
-              </div>
-              <div class="card-footer justify-content-center">
-                <a href="https://twitter.com/PeterJaehoCho" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
-                <!--<a href="https://medium.com/@karnika.singh_90443" class="btn btn-just-icon btn-link btn-medium"><i class="fa fa-medium"></i></a>
-                <a href="https://www.linkedin.com/in/karnika-singh-376137103/" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>-->
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card card-profile card-plain">
-              <div class="card-header card-avatar">
-                <a href="#pablo">
-                  <img class="img" src="./assets/dbdp/JK.jpg" />
-                </a>
-              </div>
-              <div class="card-body ">
-                <h4 class="card-title">Joe Kim</h4>
-                <h6 class="card-category text-muted">Data Wrangler</h6>
-                <p class="card-description">
-                  BS student Duke BME & ECE
-                </p>
-              </div>
-              <div class="card-footer justify-content-center">
-                <a href="https://twitter.com/Juseong" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
-                <a href="https://medium.com/@juseong.kim" class="btn btn-just-icon btn-link btn-medium"><i class="fa fa-medium"></i></a>
-                <a href="https://www.linkedin.com/in/juseong-joe-kim/" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card card-profile card-plain">
-              <div class="card-header card-avatar">
-                <a href="#pablo">
-                  <img class="img" src="./assets/dbdp/LC.jpeg" />
-                </a>
-              </div>
-              <div class="card-body ">
-                <h4 class="card-title">Lucy Chikwetu</h4>
-                <h6 class="card-category text-muted">Code Maintainer</h6>
-                <p class="card-description">
-                  PhD student Duke ECE
-                </p>
-              </div>
-              <div class="card-footer justify-content-center">
-                <!--<a href="https://twitter.com/Karnika_MedTech" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
-                <a href="https://medium.com/@karnika.singh_90443" class="btn btn-just-icon btn-link btn-medium"><i class="fa fa-medium"></i></a>
-                <a href="https://www.linkedin.com/in/karnika-singh-376137103/" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>-->
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card card-profile card-plain">
-              <div class="card-header card-avatar">
-                <a href="#pablo">
-                  <img class="img" src="./assets/dbdp/MS.jpg" />
-                </a>
-              </div>
-              <div class="card-body ">
-                <h4 class="card-title">Mobashir Shandhi, PhD</h4>
-                <h6 class="card-category text-muted">Code Maintainer</h6>
-                <p class="card-description">
-                  Post-doc, Big Ideas Lab 
-                </p>
-              </div>
-              <div class="card-footer justify-content-center">
-                <a href="https://twitter.com/MobashirShandhi" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
-                <a href="h: https://www.linkedin.com/in/mobashirshandhi/" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card card-profile card-plain">
-              <div class="card-header card-avatar">
-                <a href="#pablo">
-                  <img class="img" src="./assets/dbdp/JS.jpeg" />
-                </a>
-              </div>
-              <div class="card-body ">
-                <h4 class="card-title">Jason Shang</h4>
-                <h6 class="card-category text-muted">Data Wrangler</h6>
-                <p class="card-description">
-                  BS student Duke CS & ECE
-                </p>
-              </div>
-              <div class="card-footer justify-content-center">
-                <a href="www.linkedin.com/in/jason-shang" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card card-profile card-plain">
-              <div class="card-header card-avatar">
-                <a href="#pablo">
-                  <img class="img" src="./assets/dbdp/YJ.jpg" />
-                </a>
-              </div>
-              <div class="card-body ">
-                <h4 class="card-title">Yihang Jiang</h4>
-                <h6 class="card-category text-muted">Code Maintainer</h6>
-                <p class="card-description">
-                  PhD student Duke BME
-                </p>
-              </div>
-              <div class="card-footer justify-content-center">
-                <!--<a href="www.linkedin.com/in/jason-shang" class="btn btn-just-icon btn-link btn-linkedin"><i class="fa fa-linkedin"></i></a>-->
-              </div>
-            </div>
-          </div>
-          
         </div>
-      </div>
-    </div>
-
-
-    <div class="container">
-		  <div class="section section-overview">
-          <div class="col-md-8 ml-auto mr-auto text-center">
-          <h2 class="title">DBDP Contributors</h2>
-          <h6 class="card-category text-muted"><a href="https://github.com/jbpauly">Joe Pauly</a></h6>
-          <h6 class="card-category text-muted">Will Ke Wang</h6>
-          <h6 class="card-category text-muted">Yihang Jiang</h6>
-          <h6 class="card-category text-muted">Chentian Jiang</h6>
-          <h6 class="card-category text-muted">Emilia Grzesiak</h6>
-          <h6 class="card-category text-muted">Maria Henriquez</h6>
-          <h6 class="card-category text-muted">Noah Lanier</h6>
-          <h6 class="card-category text-muted">Nathan Warren</h6>
-          <h6 class="card-category text-muted">Kush Gulati</h6>
-          <h6 class="card-category text-muted">Annie Hirsch</h6>
-          <h6 class="card-category text-muted">Yuankai Qi</h6>
-          </div>
-      </div>	
-    </div>	
-
-
-	  
-	
-	  
-	  
-	  
-	  
-	<br> 
-	
-
-
-    </div>
-  </div>
-  
-  	<div class="section section-cards section-dark">
-	  <div class="col-lg-5 col-md-8 ml-auto mr-auto text-center">
-        <div class="image-container">
-          <img class="img" src="./assets/dbdp/BIL_logo.png" style="height:10em;" alt="" />
+        <!-- Topic item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/assets_bhi/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2>Digital Biomarkers</h2>
+                                   
+                                    <img class="img-fluid d-block mx-auto" src="assets/assets_bhi/img/Topics/Flow Chart - DBDP - Wearables.jpg" alt="..." />
+                                   
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-	  </div>
-      <div class="section text-center">
-		      <h4 class="description">The DBDP was developed and is curated by the Big Ideas Lab at Duke University. The BIG IDEAS Lab is developing digital biomarkers for a range of diseases and conditions using a variety of sensors. 
-          </h4>
-          <h4 class="description">The DBDP has been made possible in part by grant number 2020-218599 from the Chan Zuckerberg Initiative DAF, an advised fund of Silicon Valley Community Foundation.  
-          </h4>
-          <h4 class="description">The DBDP has partnered with Open mHealth and MD2K Cerebral Cortex to open-source digital biomarker development.  
-          </h4>
-          
-      </div>
-    <div class="row">
-      <div class="col-sm-4 text-center">
-          <a href="https://md2k.org/"><img class="img-responsive" src="./assets/dbdp/md2k.png" style="height:5em;" alt="" /></a>
-      </div>
-      <div class="col-sm-4 text-center">
-          <a href="https://chanzuckerberg.com/eoss/proposals/expanding-the-open-mhealth-platform-to-support-digital-biomarker-discovery/"><img class="img-responsive" src="./assets/dbdp/czi.jpg" style="height:5em;" alt="" /></a>
-      </div>
-      <div class="col-sm-4 text-center">
-          <a href="https://openmhealth.org/"><img class="img-responsive" src="./assets/dbdp/openmhealth.png" style="height:5em;" alt="" /></a>
-      </div>
-    </div>
-
-	</div>
-  
-  
-  </div>
-  </div>
-  <footer class="footer footer-default">
-    <div class="container">
-
-      <div class="copyright float-right">
-        &copy;
-        <script>
-          document.write(new Date().getFullYear())
-        </script>, developed by
-        <a href="dunn.pratt.duke.edu/" target="_blank">The Big Ideas Lab</a> at Duke University. 
-      </div>
-    </div>
-  </footer>
-  <!--   Core JS Files   -->
-  <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="./assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
-  <script src="./assets/js/plugins/moment.min.js"></script>
-  <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
-  <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
-  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-  <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-  <!--  Google Maps Plugin    -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-  <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
-  <script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
-  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
-  <script src="./assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
-  <!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
-  <script src="./assets/js/plugins/jasny-bootstrap.min.js" type="text/javascript"></script>
-  <!--	Plugin for Small Gallery in Product Page -->
-  <script src="./assets/js/plugins/jquery.flexisel.js" type="text/javascript"></script>
-  <!-- Plugins for presentation and navigation  -->
-  <script src="./assets/demo/modernizr.js" type="text/javascript"></script>
-  <script src="./assets/demo/vertical-nav.js" type="text/javascript"></script>
-  <!-- Place this tag in your head or just before your close body tag. -->
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
-  <!-- Js With initialisations For Demo Purpose, Don't Include it in Your Project -->
-  <script src="./assets/demo/demo.js" type="text/javascript"></script>
-  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
-  <script src="./assets/js/material-kit.js?v=2.2.0" type="text/javascript"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-      materialKitDemo.presentationAnimations();
-    });
-  </script>
-</body>
-
+        <!-- Topic  item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/assets_bhi/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2>Current Clinical Workflow</h2>
+                                    <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                                    <img class="img-fluid d-block mx-auto" src="assets/assets_bhi/img/Topics/Flow Chart - DBDP - Clinical.jpg" alt="..." />
+                                   
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topic  item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/assets_bhi/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2>Potential of Digital Health in Clinical Workflows</h2>
+                                    <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                                    <img class="img-fluid d-block mx-auto" src="assets/assets_bhi/img/Topics/Flow Chart - DBDP - Potential.jpg" alt="..." />
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topic  item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/assets_bhi/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2>Incorporating Digital Health into Clinical Workflows</h2>
+                                    <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                                    <img class="img-fluid d-block mx-auto" src="assets/assets_bhi/img/Topics/Flow Chart - DBDP - Incorporating.jpg" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topic  item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/assets_bhi/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2>Future of Digital Sensors in Clinical Workflow</h2>
+                                    <!-- <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p> -->
+                                    <img class="img-fluid d-block mx-auto" src="assets/assets_bhi/img/Topics/Flow Chart - DBDP - Incorporating.jpg" alt="..." />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; The BIG IDEAs Lab/DBDP Workshop 2023</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/Big_Ideas_Lab" target="blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://dunn.pratt.duke.edu/." target="blank" aria-label="Website"><i class="fa-solid fa-globe"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/DigitalBiomarkerDiscoveryPipeline" target="blank" aria-label="Github"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                   
+                    
+                </div>
+            </div>
+        </footer>
+        
+       
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/js_amia/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
